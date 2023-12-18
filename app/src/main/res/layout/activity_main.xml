@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/menu"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/iv_fon"
+        app:layout_constraintBottom_toBottomOf="@id/iv_fon"
+        android:background="@drawable/menu"
+        android:elevation="2dp"
+        android:layout_marginEnd="10dp"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/what_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/orange"
+        android:text="Whatsapp"
+        app:iconGravity="textEnd"
+        app:iconPadding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_msg"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/telegram_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/orange"
+        android:text="@string/telegram"
+        app:iconGravity="textEnd"
+        app:iconPadding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_help"
+        app:layout_constraintStart_toStartOf="@+id/btn_help" />
+
+    <ImageView
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        app:layout_constraintEnd_toEndOf="@id/what_btn"
+        app:layout_constraintBottom_toBottomOf="@id/what_btn"
+        app:layout_constraintTop_toTopOf="@id/what_btn"
+        android:background="@drawable/img_2"
+        android:layout_marginEnd="20dp"/>
+
+    <ImageView
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        app:layout_constraintEnd_toEndOf="@id/telegram_btn"
+        app:layout_constraintBottom_toBottomOf="@id/telegram_btn"
+        app:layout_constraintTop_toTopOf="@id/telegram_btn"
+        android:background="@drawable/img_3"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/et_msg"
+        android:maxLength="13"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:hint="@string/enter_phone_number"
+        android:inputType="number"
+        android:layout_marginBottom="300dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_fon"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="@id/iv_fon"
+        app:layout_constraintEnd_toEndOf="@id/iv_fon"
+        app:layout_constraintTop_toTopOf="@id/iv_fon"
+        app:layout_constraintBottom_toBottomOf="@id/iv_fon"
+        android:background="@drawable/img_1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_help"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="@color/orange"
+        android:text="Помошь"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/telegram_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

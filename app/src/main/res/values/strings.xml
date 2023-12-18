@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WHAPP number search</string>
+    <string name="search">search</string>
+    <string name="enter_phone_number">enter phone number</string>
+    <string name="ssw">Прозьба введите корректнай номер</string>
+    <string name="todo">TODO</string>
+    <string name="telegram">Telegram</string>
+</resources>

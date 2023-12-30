@@ -5,4 +5,7 @@
     <string name="ssw">Прозьба введите корректнай номер</string>
     <string name="todo">TODO</string>
     <string name="telegram">Telegram</string>
+    <string name="help">Помошь</string>
+    <string name="web_site">Web site</string>
+    <string name="whatsapp">WhatsApp</string>
 </resources>

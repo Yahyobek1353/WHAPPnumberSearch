@@ -4,7 +4,11 @@
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#A6A6A6</color>
     <color name="orange">#FF9F0A</color>
-    <color name="blackGrey">#333333</color>
+    <color name="black_Grey">#333333</color>
     <color name="blue">#1F82CD</color>
+    <color name="back_blue">#0030BF</color>
+    <color name="white_blue">#7BB0D8</color>
+    <color name="blue_violet">#544993</color>
+    <color name="green_blue">#0CD383</color>
 
 </resources>
